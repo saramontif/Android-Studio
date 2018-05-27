@@ -1,0 +1,62 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_car_model"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yealm.takego1.controller.AddCarModel">
+
+    <EditText
+        android:id="@+id/codeModelEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="code Model"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/companyNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="companyName"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/modelNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="modelName"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/engineCapacityEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="engineCapacity"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/GearboxSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gearbox"
+        android:inputType="phone"
+        />
+
+    <Spinner
+        android:id="@+id/numOfseatsSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="numOfseats"
+        android:inputType="phone"
+         />
+    <Button
+        android:id="@+id/addCarModelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add_CarModel" />
+</LinearLayout>

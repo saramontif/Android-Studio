@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Take&amp;Go2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="lastName">last name</string>
+    <string name="firstName">first name</string>
+    <string name="ID">ID</string>
+    <string name="phoneNumber">phoneNumber</string>
+    <string name="email">email</string>
+    <string name="creditCardNumber">creditCardNumber</string>
+    <string name="add_Costumer">Add customer</string>
+    <string name="createAcount">Create your account</string>
+    <string name="detailsCar">Details of the reserved car: </string>
+    <string name="closeOrder">Close your order </string>
+    <string name="add_order">Add order </string>
+    <string name="addressBranch">Branch Address </string>
+    <string name="numspaceBranch">Number of parking spaces </string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MailText">Send us E-mail  \nyealmor@gmail.com </string>
+    <string name="PhoneText">Call us  \n0542118022</string>
+    <string name="webText">Our website  \nwww.TakeAndGo.co.il</string>
+
+
+</resources>

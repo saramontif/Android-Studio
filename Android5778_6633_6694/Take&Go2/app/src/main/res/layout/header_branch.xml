@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/addressBranch"
+        android:textAppearance="@android:style/TextAppearance.Holo.Inverse" />
+    <TextView
+        android:id="@+id/branchAddressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Address "
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textColor="@color/dark_blue1" />
+
+
+</LinearLayout>

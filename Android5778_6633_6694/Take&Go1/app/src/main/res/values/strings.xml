@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Take&amp;Go1</string>
+    <string name="lastName">Last Name</string>
+    <string name="firatName">first Name</string>
+    <string name="firstName">First Name</string>
+    <string name="ID">ID</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="creditCardNumber">Credit Card Number</string>
+    <string name="add_Costumer">Add Costumer</string>
+</resources>

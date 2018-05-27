@@ -1,0 +1,56 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_add_costumer"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context="com.example.yealm.takego1.controller.AddCostumer">
+<EditText
+    android:id="@+id/lastNameEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/lastName"
+    android:inputType="textPersonName" />
+<EditText
+    android:id="@+id/firstNameEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/firstName"
+    android:inputType="textPersonName" />
+<EditText
+    android:id="@+id/IDEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/ID"
+    android:inputType="number" />
+<EditText
+    android:id="@+id/phoneNumberEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/phoneNumber"
+    android:inputType="phone" />
+<EditText
+    android:id="@+id/emailEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/email"
+    android:inputType="textEmailAddress" />
+<EditText
+    android:id="@+id/creditCardNumberEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/creditCardNumber"
+    android:inputType="number" />
+<Button
+    android:id="@+id/addCostumerButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/add_Costumer" />
+</LinearLayout>

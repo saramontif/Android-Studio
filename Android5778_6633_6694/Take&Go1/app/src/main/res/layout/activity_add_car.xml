@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_add_car"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.example.yealm.takego1.controller.AddCar">
+
+
+<EditText
+    android:id="@+id/branchCarEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="branch Car"
+    android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/carModelSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="car Model"
+        android:inputType="text" />
+<EditText
+    android:id="@+id/numOfkilometerEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="number Of kilometer"
+    android:inputType="number" />
+
+<EditText
+    android:id="@+id/numOfCarEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="number Of Car"
+    android:inputType="number" />
+
+<Button
+    android:id="@+id/addCarButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="add_Car" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contactUs"
+            android:icon="@mipmap/ic_content"
+            android:title="Contact As" />
+        <item
+            android:id="@+id/nav_branches"
+            android:icon="@mipmap/ic_branch"
+            android:title="Our branches" />
+        <!--<item-->
+            <!--android:id="@+id/nav_vacantCars"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Found Your Cars" />-->
+        <item
+            android:id="@+id/nav_myOrder"
+            android:icon="@mipmap/ic_order"
+            android:title="My Order" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@mipmap/ic_exit2"
+            android:title="Exit" />
+    </group>
+
+
+</menu>

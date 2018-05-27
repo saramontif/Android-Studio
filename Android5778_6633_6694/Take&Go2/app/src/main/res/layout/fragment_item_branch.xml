@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/branchNumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  branch number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/parkingSpaces"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="  Parking spaces"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/b_mapLink"
+                android:layout_width="104dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_map2"
+                android:background="@color/wl_blue"/>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titleCars"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="exist cars"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textDirection="ltr"
+                    android:textSize="20sp" />
+
+                <Spinner
+                    android:id="@+id/spinerCars"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:headerDividersEnabled="false"
+                    android:scrollbars="none" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <Button
+                    android:id="@+id/add_order"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:shadowColor="#496391"
+                    android:textColor="#323575"
+                    android:textSize="22sp"
+                    android:text="@string/add_order"
+                    android:background="@drawable/buttonshape2"
+                    />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/companyNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:elegantTextHeight="true"
+        android:text="company name"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/carAddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_weight="0.23"
+        android:elegantTextHeight="true"
+        android:text=" Address "
+        android:textAppearance="@android:style/TextAppearance.Holo.Large"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>
+
+    <!--android:textAlignment="viewStart"-->

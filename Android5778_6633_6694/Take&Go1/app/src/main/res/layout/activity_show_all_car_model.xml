@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/labelcodeModelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Code Model:   " />
+        <TextView
+            android:id="@+id/codeModelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Code Model" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/labelcompanyNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Company Name:   " />
+        <TextView
+            android:id="@+id/companyNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Company Name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/labelmodelNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="model Name:   " />
+        <TextView
+            android:id="@+id/modelNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="model Name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/labelgearboxTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Gear Box:   " />
+        <TextView
+            android:id="@+id/gearboxTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Gear Box" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/labelnumOfseatsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Number of seats:   " />
+        <TextView
+            android:id="@+id/numOfseatsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="number of seats" />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/branchcar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="branch car"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/carModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="car Model"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/numOfkilometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="number Of kilometer"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/carNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="car number"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/buttonRent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rent This Car"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
